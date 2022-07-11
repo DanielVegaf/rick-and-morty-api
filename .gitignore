@@ -11,10 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+**/.history/*
 
 # Editor directories and files.
 .vscode/*
-*.history
 !.vscode/extensions.json
 .idea
 .DS_Store
