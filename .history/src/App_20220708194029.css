@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container{
+  background-color: red;
+  width: 70%;
+}
+
+.buttons{
+  padding: 20px;
+}
+
+.buttons button{  
+  border: none;
+  margin: 0 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: transform .1s ease-in-out;
+}
+.buttons button:active {  
+  transform: scale(1.1);
+}
+
+input{
+  margin: 20px;
+  padding: 10px 20px;
+}
