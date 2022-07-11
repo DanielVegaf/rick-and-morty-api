@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from 'react-router-dom';
 
-import { getSingleCharacter } from '../../services/api';
+import { getSingleCharacter } from '../../services/api'
 
 export function CharacterDetails() {
 
